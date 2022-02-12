@@ -13,8 +13,8 @@
 		0B169AE227B8022A000B52C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B169AE027B8022A000B52C2 /* Main.storyboard */; };
 		0B169AE427B80230000B52C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B169AE327B80230000B52C2 /* Assets.xcassets */; };
 		0B169AE727B80230000B52C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B169AE527B80230000B52C2 /* LaunchScreen.storyboard */; };
-		0B169AF227B80231000B52C2 /* GitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B169AF127B80231000B52C2 /* GitDemoTests.swift */; };
 		0B169AFD27B80231000B52C2 /* GitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B169AFC27B80231000B52C2 /* GitDemoUITests.swift */; };
+		0B169B0E27B814C8000B52C2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0B169B0D27B814C8000B52C2 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +44,10 @@
 		0B169AE627B80230000B52C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B169AE827B80230000B52C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B169AED27B80231000B52C2 /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B169AF127B80231000B52C2 /* GitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoTests.swift; sourceTree = "<group>"; };
-		0B169AF327B80231000B52C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B169AF827B80231000B52C2 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B169AFC27B80231000B52C2 /* GitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoUITests.swift; sourceTree = "<group>"; };
 		0B169AFE27B80231000B52C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B169B0D27B814C8000B52C2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +78,9 @@
 		0B169ACE27B8022A000B52C2 = {
 			isa = PBXGroup;
 			children = (
+				0B169B0D27B814C8000B52C2 /* .gitignore */,
 				0B169AD927B8022A000B52C2 /* GitDemo */,
-				0B169AF027B80231000B52C2 /* GitDemoTests */,
 				0B169AFB27B80231000B52C2 /* GitDemoUITests */,
-				0B169AD827B8022A000B52C2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +92,7 @@
 				0B169AF827B80231000B52C2 /* GitDemoUITests.xctest */,
 			);
 			name = Products;
+			path = GitDemo;
 			sourceTree = "<group>";
 		};
 		0B169AD927B8022A000B52C2 /* GitDemo */ = {
@@ -110,18 +109,10 @@
 			path = GitDemo;
 			sourceTree = "<group>";
 		};
-		0B169AF027B80231000B52C2 /* GitDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				0B169AF127B80231000B52C2 /* GitDemoTests.swift */,
-				0B169AF327B80231000B52C2 /* Info.plist */,
-			);
-			path = GitDemoTests;
-			sourceTree = "<group>";
-		};
 		0B169AFB27B80231000B52C2 /* GitDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
+				0B169AD827B8022A000B52C2 /* Products */,
 				0B169AFC27B80231000B52C2 /* GitDemoUITests.swift */,
 				0B169AFE27B80231000B52C2 /* Info.plist */,
 			);
@@ -231,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B169B0E27B814C8000B52C2 /* .gitignore in Resources */,
 				0B169AE727B80230000B52C2 /* LaunchScreen.storyboard in Resources */,
 				0B169AE427B80230000B52C2 /* Assets.xcassets in Resources */,
 				0B169AE227B8022A000B52C2 /* Main.storyboard in Resources */,
@@ -268,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B169AF227B80231000B52C2 /* GitDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
